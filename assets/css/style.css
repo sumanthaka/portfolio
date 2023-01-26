@@ -32,3 +32,23 @@
   opacity: 1;
   transform: translateY(-0.2em);
 }
+
+.land-svg{
+  min-height: 100vh;
+  background-image: url('/assets/low-poly-grid-haikei.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+.content{
+  height: 100vh;
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+}
